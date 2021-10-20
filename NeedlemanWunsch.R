@@ -1,7 +1,7 @@
 NeedlemanWunsch <- function(seq_1, seq_2, match, mismatch, gap){
   
-  seq_1 <- strsplit(seq_1, "")[[1]]
-  seq_2 <- strsplit(seq_2, "")[[1]]
+#  seq_1 <- strsplit(seq_1, "")[[1]]
+#  seq_2 <- strsplit(seq_2, "")[[1]]
   
   m <- 1 + length(seq_1)
   n <- 1 + length(seq_2)
